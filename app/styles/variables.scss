@@ -7,3 +7,36 @@ $warning: #FFC107;
 $danger: #DC3545;
 $light: #FBFBFB;
 $dark: #343A40;
+
+$theme-colors: (
+  "white": #fff,
+  "gray": $gray,
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1600px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1540px
+);
+
+$enable-shadows: true;
+

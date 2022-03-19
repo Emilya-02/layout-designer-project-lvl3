@@ -12,10 +12,60 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
-<body>
-  <div class="btn btn-primary">
-    Внимание
+<body class="bg-gray max-h p-4 radius">
+  <div class="container-xxl overflow-hidden radius-md bg-white">
+    <div class="row max-h-row min-h-row">
+      <div class="col-12 col-md-4 scrollbar px-0 d-flex flex-column tap-content">
+        <div class="header bg-primary d-flex justify-content-around align-items-center pt-3 pb-3">
+          <a class="d-flex ms-4 me-auto" href="#"><img src="images/icons/logo.svg" width="15" alt="главная" /></a>
+          <nav class="d-flex nav" id="myTab" role="tablist">
+            <a class="d-flex ms-3 align-items-center text-decoration-none" id="contacts-tab" data-bs-toggle="tab"
+              href="#contacts" role="tab" aria-controls="contacts" aria-selected="true">
+              <img class="me-2" src="images/icons/people.svg" width="25" height="40" alt="контакты" />
+              <span class="text-light d-none d-xl-block">Контакты</span></a>
+            <a class="d-flex mx-3 align-items-center text-decoration-none" id="message-tab" data-bs-toggle="tab"
+              href="#chats" role="tab" aria-controls="chats" aria-selected="true">
+              <img src="images/icons/chat.svg" width="25" height="40" alt="сообщения" />
+              <span class="text-light d-none d-xl-block">Сообщения</span></a>
+            <a class="d-flex mx-3 align-items-center text-decoration-none" id="profile-tab" data-bs-toggle="tab"
+              href="#profile" role="tab" aria-controls="profile" aria-selected="true">
+              <img class="me-2" src="images/icons/person.svg" width="25" height="40" alt="Профиль" />
+              <span class="text-light d-none d-xl-block">Профиль</span></a>
+          </nav>
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane pt-5 px-4 tab-pane fade show active" id="contacts" role="tabpanel" aria-labelledby="contacts">
+            <h2 class="mb-4 fw-bold">Контакты</h2>
+            <h2 class="mb-4 fw-bold">Контакты</h2>
+            <h2 class="mb-4 fw-bold">Контакты</h2>
+            <h2 class="mb-4 fw-bold">Контакты</h2>
+            <h2 class="mb-4 fw-bold">Контакты</h2>
+            <h2 class="mb-4 fw-bold">Контакты</h2>
+            <h2 class="mb-4 fw-bold">Контакты</h2>
+            <h2 class="mb-4 fw-bold">Контакты</h2>
+            <h2 class="mb-4 fw-bold">Контакты</h2>
+            <h2 class="mb-4 fw-bold">Контакты</h2>
+            <h2 class="mb-4 fw-bold">Контакты</h2>
+            <h2 class="mb-4 fw-bold">Контакты</h2>
+            <h2 class="mb-4 fw-bold">Контакты</h2>
+            <h2 class="mb-4 fw-bold">Контакты</h2>
+            <h2 class="mb-4 fw-bold">Контакты</h2>
+          </div>
+          <div class="tab-pane p-4 tab-pane fade show" id="chats" role="tabpanel" aria-labelledby="chats">
+            <h2 class="my-4 fw-bold">Чаты</h2>
+          </div>
+          <div class="tab-pane p-4 tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile">
+            <h2 class="my-4 fw-bold">Профиль</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-8">
+        <img src="./images/avatar_1.jpg" alt="выбери чат">
+      </div>
+    </div>
   </div>
-  
+
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>
