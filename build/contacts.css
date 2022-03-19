@@ -1,0 +1,10 @@
+.scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=contacts.css.map */
