@@ -1,0 +1,1 @@
+{"version":3,"sources":["avatar.scss"],"names":[],"mappings":"AAAA;EACE;;AACA;EACE;EACA;;AAEF;EACE;EACA","file":"avatar.css","sourcesContent":[".avatar {\r\n  border-radius: 50%;\r\n  &-md {\r\n    width: 200px;\r\n    height: 200px;\r\n  }\r\n  &-sm {\r\n    width: 50px;\r\n    height: 50px;\r\n  }\r\n}"]}

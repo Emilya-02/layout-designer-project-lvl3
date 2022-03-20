@@ -1,0 +1,43 @@
+.chat {
+  text-decoration: none !important;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  box-shadow: $box-shadow-sm;
+  &:hover {
+    background-color: $primary;
+    & h6 {
+      color: #fff;
+    }
+    & p {
+      color: #fff !important;
+    }
+    & span {
+      color: #fff !important;
+    }
+  }
+  &-info {
+    width: calc(100% - $spacer*3);
+    & h6 {
+      display: flex;
+      justify-content: end;
+      color: #000;
+      margin-bottom: 0;
+    }
+    & p {
+      text-overflow: ellipsis;
+      width: calc(100% - $spacer*3);
+      font-size: 80%;
+      margin-bottom: 0;
+    }
+  }
+   & span {
+     flex-grow: 1;
+     font-weight: normal;
+     margin-right: 0;
+     text-align: end;
+   }
+  & img {
+    margin-left: 16px;
+  }
+}

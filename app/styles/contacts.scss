@@ -1,3 +1,11 @@
 .scrollbar {
   @include hide-scrollbar;
 }
+
+.scroll {
+  overflow: scroll;
+}
+
+.scroll-h {
+  max-height: 60%;
+}

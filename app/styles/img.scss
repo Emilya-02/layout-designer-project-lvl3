@@ -1,0 +1,10 @@
+.right-img {
+  position: relative;
+  top: 50vh;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.color-fill {
+  filter: brightness(0) invert(1);
+}

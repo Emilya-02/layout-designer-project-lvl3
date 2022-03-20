@@ -1,0 +1,33 @@
+.contact {
+  & a {
+    text-decoration: none !important;
+  }
+  &-item {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    box-shadow: $box-shadow-sm;
+    &:hover {
+      background-color: $primary;
+      & h6 {
+        color: #fff;
+      }
+      & p {
+        color: #fff !important;
+      }
+    }
+  }
+  &-info {
+    & h6 {
+      color: #000;
+      margin-bottom: 0;
+    }
+    & p {
+      font-size: 80%;
+      margin-bottom: 0;
+    }
+  }
+  & img {
+    margin-left: 16px;
+  }
+}
