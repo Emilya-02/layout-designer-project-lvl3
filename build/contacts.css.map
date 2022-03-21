@@ -1,1 +1,0 @@
-{"version":3,"sources":["contacts.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EAEA;EACA;;AAEF;EACE","file":"contacts.css","sourcesContent":[".scrollbar {\r\n    -ms-overflow-style: none;\r\n    scrollbar-width: none;\r\n\r\n    overflow-y: auto;\r\n    overflow-x: hidden;\r\n\r\n  &::-webkit-scrollbar {\r\n    display: none;\r\n  }\r\n}"]}

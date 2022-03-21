@@ -11373,7 +11373,7 @@ textarea.form-control-lg {
 }
 
 .scroll-h {
-  max-height: 60%;
+  max-height: 65%;
 }
 
 .right-img {
@@ -11390,9 +11390,13 @@ textarea.form-control-lg {
 .avatar {
   border-radius: 50%;
 }
-.avatar-md {
+.avatar-lg {
   width: 200px;
   height: 200px;
+}
+.avatar-md {
+  width: 90px;
+  height: 90px;
 }
 .avatar-sm {
   width: 50px;
@@ -11458,6 +11462,8 @@ textarea.form-control-lg {
   margin-bottom: 0;
 }
 .chat-info p {
+  overflow: hidden;
+  white-space: nowrap;
   text-overflow: ellipsis;
   width: calc(100% - 3rem);
   font-size: 80%;
@@ -11471,5 +11477,38 @@ textarea.form-control-lg {
 }
 .chat img {
   margin-left: 16px;
+}
+
+.card {
+  border: none !important;
+  align-items: center;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-group-item p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .header {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+  }
+  .header span {
+    display: none;
+  }
+
+  .bg-gray {
+    padding: 0 !important;
+  }
+
+  .radius {
+    border-radius: 0;
+  }
 }
 /*# sourceMappingURL=app.css.map */

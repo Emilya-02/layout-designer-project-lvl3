@@ -1,1 +1,0 @@
-{"version":3,"sources":["container-xxl.scss"],"names":[],"mappings":"AAAA;EACE;;;AAGF;EACE","file":"container-xxl.css","sourcesContent":[".max-h-row {\r\n  max-height: calc(100vh - 48px);\r\n}\r\n\r\n.min-h-row {\r\n  min-height: calc(100vh - 48px);\r\n}"]}

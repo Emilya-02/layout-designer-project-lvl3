@@ -1,0 +1,18 @@
+@media (max-width: 767px) {
+  .header {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    & span {
+      display: none;
+    }
+  }
+
+  .bg-gray {
+    padding: 0 !important;
+  }
+
+  .radius {
+    border-radius: 0;
+  }
+}
