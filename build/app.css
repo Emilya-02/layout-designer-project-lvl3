@@ -11511,4 +11511,27 @@ textarea.form-control-lg {
     border-radius: 0;
   }
 }
+#contacts input {
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #dee2e6;
+  background: #fff;
+}
+
+#chats input {
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #dee2e6;
+  background: #fff;
+}
+
+#profile input {
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #dee2e6;
+  background: #fff;
+}
 /*# sourceMappingURL=app.css.map */

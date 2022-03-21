@@ -11,3 +11,11 @@
     display: none;
   }
 }
+
+@mixin style-input() {
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  border-bottom: $border-width solid $border-color;
+  background: $white;
+}

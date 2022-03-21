@@ -1,0 +1,17 @@
+#contacts {
+  & input {
+    @include style-input;
+  }
+}
+
+#chats {
+  & input {
+    @include style-input;
+  }
+}
+
+#profile {
+  & input {
+    @include style-input;
+  }
+}
