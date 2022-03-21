@@ -17,6 +17,7 @@
     }
   }
   &-info {
+    overflow: hidden;
     width: calc(100% - $spacer*3);
     & h6 {
       display: flex;
@@ -28,7 +29,7 @@
       overflow: hidden;
       white-space: nowrap;
       text-overflow: ellipsis;
-      width: calc(100% - $spacer*3);
+      max-width: calc(100% - $spacer*4);
       font-size: 80%;
       margin-bottom: 0;
     }

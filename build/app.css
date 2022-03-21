@@ -11453,6 +11453,7 @@ textarea.form-control-lg {
   color: #fff !important;
 }
 .chat-info {
+  overflow: hidden;
   width: calc(100% - 3rem);
 }
 .chat-info h6, .chat-info .h6 {
@@ -11465,7 +11466,7 @@ textarea.form-control-lg {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  width: calc(100% - 3rem);
+  max-width: calc(100% - 4rem);
   font-size: 80%;
   margin-bottom: 0;
 }
