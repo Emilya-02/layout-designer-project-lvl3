@@ -11511,6 +11511,10 @@ textarea.form-control-lg {
   .radius {
     border-radius: 0;
   }
+
+  #contacts .contact > p {
+    margin-bottom: 19px;
+  }
 }
 #contacts input {
   border-radius: 0;
