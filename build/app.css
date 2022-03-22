@@ -11517,7 +11517,7 @@ textarea.form-control-lg {
   }
 
   .border-end {
-    border-right: none;
+    border-right: 0;
   }
 }
 #contacts input {
