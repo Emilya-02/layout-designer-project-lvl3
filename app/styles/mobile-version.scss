@@ -24,11 +24,14 @@
     border-right: none !important;
   }
 
-  .contact-info h6 {
+  .contact-info h6, 
+  .chat h6 {
     margin-bottom: 0.5rem;
+    font-weight: bold;
   }
 
-  .contact-info p {
+  .contact-info p,
+  .chat p {
     font-size: 14px !important;
     line-height: 21px !important;
   }
