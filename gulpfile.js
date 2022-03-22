@@ -16,6 +16,16 @@ gulp.task('copy', function() {
   .pipe(gulp.dest('build/'))
 })
 
+gulp.task('js', function() {
+  return gulp.src('node_modules/bootstrap/dist/js/bootstrap.min.js')
+  .pipe(gulp.dest('build/'))
+})
+
+gulp.task('jsmap', function() {
+  return gulp.src('node_modules/bootstrap/dist/js/bootstrap.min.js.map')
+  .pipe(gulp.dest('build/'))
+})
+
 gulp.task('watch', function() {
-  gulp.watch('./app/styles/**/*.scss', gulp.series('sass-compile', 'copy'))
+  gulp.watch('./app/styles/**/*.scss', gulp.series('sass-compile', 'copy', 'js', 'jsmap'))
 })
