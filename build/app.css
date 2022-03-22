@@ -11516,8 +11516,12 @@ textarea.form-control-lg {
     margin-bottom: 23px;
   }
 
-  .border-end {
-    border-right: 0;
+  .row .border-end {
+    border-right: none !important;
+  }
+
+  .contact-info {
+    padding-bottom: 28px !important;
   }
 }
 #contacts input {
