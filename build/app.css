@@ -11519,6 +11519,11 @@ textarea.form-control-lg {
   .contact-info h6, .contact-info .h6 {
     margin-bottom: 0.5rem;
   }
+
+  .contact-info p {
+    font-size: 14px !important;
+    line-height: 21px !important;
+  }
 }
 #contacts input {
   border-radius: 0;
