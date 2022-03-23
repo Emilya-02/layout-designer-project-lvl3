@@ -11667,6 +11667,7 @@ header .contact-item img {
   margin-bottom: 0.25rem;
 }
 .message p {
+  line-height: 24px;
   margin-bottom: 0.5rem;
 }
 .message hr {
@@ -11680,6 +11681,7 @@ header .contact-item img {
 .message-item {
   max-width: 558px;
   padding: 1.5rem;
+  padding-bottom: 20px;
 }
 .message-item span {
   font-size: 14px;
@@ -11692,7 +11694,7 @@ header .contact-item img {
   color: #343A40;
 }
 .message-light hr {
-  color: #FBFBFB;
+  color: #EFEFEF;
 }
 
 .message-primary {
