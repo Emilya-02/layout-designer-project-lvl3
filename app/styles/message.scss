@@ -1,5 +1,18 @@
-header .contact-info h6 {
-  margin-bottom: 6px;
+header .contact-item {
+  & h6 {
+    margin-bottom: 6px;
+  }&:hover {
+    background: $white;
+    & h6 {
+      color: $dark;
+    }
+    & p {
+      color: $secondary !important;
+    }
+  }
+  & img {
+    margin-left: 1rem;
+  }
 }
 
 .chat-container {
@@ -59,3 +72,29 @@ header .contact-info h6 {
     color: $gray;
   }
 }
+
+.writing-message {
+  & input {
+    margin-left: calc(49px + 1.5rem);
+    flex-grow: 1;
+  }
+  & ::placeholder {
+    font-size: 16px;
+    color: $secondary;
+  }
+  & button {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-right: 56px;
+    border: none;
+    background: $white;
+  }
+  & img {
+    padding-left: 13px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 13px;
+    background: $primary;
+  }
+}
+

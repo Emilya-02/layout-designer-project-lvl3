@@ -39,7 +39,7 @@
         <div class="tab-content h-100 scroll-h scrollbar" id="pills-tabContent">
           <div class="tab-pane pt-5 px-4 tab-pane fade show" id="contacts" role="tabpanel" aria-labelledby="contacts">
             <h2 class="mb-4 fw-bold">Контакты</h2>
-            <input type="password" id="inputPassword5" class="form-control p-4 mb-5" placeholder="Поиск по контактам">
+            <input type="text" id="inputPassword5" class="form-control p-4 mb-5" placeholder="Поиск по контактам">
             <div class="contact">
               <p class="text-muted mt-5">А</p>
               <a class="contact-item mb-3">
@@ -100,7 +100,7 @@
           </div>
           <div class="tab-pane p-4 tab-pane fade show active" id="chats" role="tabpanel" aria-labelledby="chats">
             <h2 class="my-4 fw-bold">Чаты</h2>
-            <input type="password" id="inputPassword5" class="form-control p-4 mb-5" placeholder="Поиск по сообщениям">
+            <input type="text" id="inputPassword5" class="form-control p-4 mb-5" placeholder="Поиск по сообщениям">
             <a class="chat mb-3">
               <img class="avatar avatar-sm" src="./images/avatar_4.jpg">
               <div class="chat-info p-4">
@@ -125,7 +125,7 @@
           </div>
           <div class="tab-pane p-4 tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile">
             <h2 class="my-4 fw-bold">Профиль</h2>
-            <input type="password" id="inputPassword5" class="form-control p-4 mb-5" placeholder="Поиск по сообщениям">
+            <input type="text" id="inputPassword5" class="form-control p-4 mb-5" placeholder="Поиск по сообщениям">
             <div class="card">
               <img class="avatar avatar-md" src="./images/avatar_1.jpg" alt="avatar">
               <div class="py-3 mb-3">
@@ -284,8 +284,9 @@
             </div>
           </div>
         </div>
-        <div class="writing-message position-relative">
-          Напишите сообщение
+        <div class="writing-message position-relative d-flex align-items-center justify-content-between border-top">
+          <input class="border-0 shadow-none" type="text" placeholder="Напишите сообщение">
+          <button><img class="avatar avatar-sm" src="./images/icons/Vector-4.svg"></button>
         </div>
       </div>
     </div>

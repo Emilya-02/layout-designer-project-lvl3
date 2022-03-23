@@ -11626,8 +11626,20 @@ textarea.form-control-lg {
   background: #fff;
 }
 
-header .contact-info h6, header .contact-info .h6 {
+header .contact-item h6, header .contact-item .h6 {
   margin-bottom: 6px;
+}
+header .contact-item:hover {
+  background: #fff;
+}
+header .contact-item:hover h6, header .contact-item:hover .h6 {
+  color: #343A40;
+}
+header .contact-item:hover p {
+  color: #6C757D !important;
+}
+header .contact-item img {
+  margin-left: 1rem;
 }
 
 .chat-container {
@@ -11686,5 +11698,28 @@ header .contact-info h6, header .contact-info .h6 {
 }
 .message-primary hr {
   color: #EFEFEF;
+}
+
+.writing-message input {
+  margin-left: calc(49px + 1.5rem);
+  flex-grow: 1;
+}
+.writing-message ::placeholder {
+  font-size: 16px;
+  color: #6C757D;
+}
+.writing-message button {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  margin-right: 56px;
+  border: none;
+  background: #fff;
+}
+.writing-message img {
+  padding-left: 13px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 13px;
+  background: #4545A5;
 }
 /*# sourceMappingURL=app.css.map */
