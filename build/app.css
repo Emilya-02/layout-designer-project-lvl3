@@ -11529,6 +11529,10 @@ textarea.form-control-lg {
     font-size: 14px !important;
     line-height: 21px !important;
   }
+
+  #profile input {
+    margin-bottom: 82px;
+  }
 }
 #contacts input {
   border-radius: 0;
