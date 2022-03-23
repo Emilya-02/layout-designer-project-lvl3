@@ -51,6 +51,7 @@
   }
 
   .chat-container {
+    padding-top: 54px !important;
     max-height: calc(100vh - 240px);
     & img {
       display: none;
@@ -84,6 +85,10 @@
     & input {
       margin-left: 32px !important;
     }
+  }
+
+  header .contact-info {
+    padding-bottom: 22px !important;
   }
 }
 
