@@ -1,0 +1,20 @@
+$utilities: map-merge(
+  $utilities, 
+  (
+    "border-md-bottom": (
+      property: border-bottom,
+      class: border-md-bottom,
+      values: (null: $border-width solid $gray)
+    ),
+    "border-lg-top": (
+      property: border-top,
+      class: border-lg-top,
+      values: (null: $border-width solid $gray)
+    ),
+    "border-sm": (
+      property: border,
+      class: border-sm,
+      values: (null: $border-width solid $gray)
+    ),
+  )
+);

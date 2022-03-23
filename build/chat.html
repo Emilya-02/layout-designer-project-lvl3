@@ -12,16 +12,16 @@
 </head>
 
 <body class="bg-gray max-h p-4">
-  <div class="container-xxl overflow-hidden radius bg-white">
+  <div class="container-xxl overflow-hidden radius bg-white mobile-100vh">
     <div class="row max-h-row min-h-row">
       <div class="col-12 col-md-4 px-0 border-end">
         <div class="header bg-primary d-flex justify-content-between align-items-center pt-3 pb-3">
           <a class="ms-4 me-auto" href="#"><img class="color-fill" src="images/icons/logo.svg" width="15"
               alt="главная" /></a>
           <nav class="d-flex nav" id="myTab" role="tablist">
-            <a class="d-flex ms-3 align-items-center text-decoration-none d-none" id="contacts-tab" data-bs-toggle="tab"
-              href="#contacts" role="tab" aria-controls="contacts" aria-selected="true">
-              <img class="color-fill me-2" src="images/icons/people.svg" width="25" height="40" alt="контакты" /></a>
+            <a class="d-flex ms-3 align-items-center text-decoration-none sms-icon" id="message-tab"
+              data-bs-toggle="tab" href="#message" role="tab" aria-controls="message" aria-selected="true">
+              <img class="color-fill me-2" src="images/icons/sms.svg" width="25" height="40" alt="контакты" /></a>
             <a class="d-flex ms-3 align-items-center text-decoration-none" id="contacts-tab" data-bs-toggle="tab"
               href="#contacts" role="tab" aria-controls="contacts" aria-selected="true">
               <img class="color-fill me-2" src="images/icons/people.svg" width="25" height="40" alt="контакты" />
@@ -37,8 +37,7 @@
           </nav>
         </div>
         <div class="tab-content scroll-h scrollbar" id="pills-tabContent">
-          <div class="tab-pane pt-5 px-4 tab-pane fade show" id="contacts" role="tabpanel"
-            aria-labelledby="contacts">
+          <div class="tab-pane pt-5 px-4 tab-pane fade show" id="contacts" role="tabpanel" aria-labelledby="contacts">
             <h2 class="mb-4 fw-bold">Контакты</h2>
             <input type="password" id="inputPassword5" class="form-control p-4 mb-5" placeholder="Поиск по контактам">
             <div class="contact">
@@ -120,7 +119,7 @@
               <img class="avatar avatar-sm" src="./images/avatar_3.jpg">
               <div class="chat-info p-4">
                 <h6>Алексей Примадонин<span class="small text-muted">08:53</span></h6>
-                <p class="text-muted">Тесты упали >_<</p>
+                <p class="text-muted">Тесты упали >_<< /p>
               </div>
             </a>
           </div>
@@ -131,7 +130,8 @@
               <img class="avatar avatar-md" src="./images/avatar_1.jpg" alt="avatar">
               <div class="py-3 mb-3">
                 <h6 class="text-center">Кодовёнок Хекслетович</h6>
-                <p class="text-muted text-center">Милый и скромный помощник начинающих разработчиков. Люблю JavaScript</p>
+                <p class="text-muted text-center">Милый и скромный помощник начинающих разработчиков. Люблю JavaScript
+                </p>
               </div>
             </div>
             <ul class="list-group list-group-flush">
@@ -167,7 +167,65 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-8">
+      <div class="col-12 col-md-8 p-0">
+        <header class="border-bottom">
+          <div class="contact-item mb-3">
+            <img class="avatar avatar-sm" src="./images/avatar_4.jpg">
+            <div class="contact-info p-4">
+              <h6 class="fw-bold">Вениамин Редакторович</h6>
+              <p class="text-muted">Онлайн</p>
+            </div>
+          </div>
+        </header>
+        <div class="chat-container scrollbar">
+          <div class="message">
+            <img class="avatar avatar-sm" src="./images/avatar_4.jpg">
+            <div class="message-item message-light radius">
+              <h6>Вениамин Редакторович</h6>
+              <p>Да, я уже вышел и минут через 20-30 буду у тебя. Поеду на трамвае и потом в магазин. Тебе что-то
+                захватить?</p>
+              <hr>
+              <span>8 минут назад</span>
+            </div>
+          </div>
+          <div class="message">
+            <img class="avatar avatar-sm" src="./images/avatar_1.jpg">
+            <div class="message-item message-primary radius">
+              <p>Захвати мне колы и пару печенек. Как-то очень сладкого хочется, а в магазин идти лень</p>
+              <hr>
+              <span>5 минут назад</span>
+            </div>
+          </div>
+          <div class="message">
+            <img class="avatar avatar-sm" src="./images/avatar_4.jpg">
+            <div class="message-item message-light radius">
+              <h6>Вениамин Редакторович</h6>
+              <p>Лады</p>
+              <hr>
+              <span>5 минут назад</span>
+            </div>
+          </div>
+          <div class="message">
+            <img class="avatar avatar-sm" src="./images/avatar_1.jpg">
+            <div class="message-item message-primary radius">
+              <p>А, слушай, купи мне ещё Macbook Pro. А то хочется работать в Хекслете, а там это условие</p>
+              <hr>
+              <span>3 минуты назад</span>
+            </div>
+          </div>
+          <div class="message">
+            <img class="avatar avatar-sm" src="./images/avatar_4.jpg">
+            <div class="message-item message-light radius">
+              <h6>Вениамин Редакторович</h6>
+              <p>о_О</p>
+              <hr>
+              <span>только что</span>
+            </div>
+          </div>
+          <div class="writing-message fixed-bottom">
+            Напишите сообщение
+          </div>
+        </div>
       </div>
     </div>
   </div>

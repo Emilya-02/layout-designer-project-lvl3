@@ -1,0 +1,31 @@
+$utilities: map-merge(
+  $utilities, 
+  (
+    "radius": (
+      property: border-radius,
+      class: radius,
+      values: (
+        null: 4*$border-radius,
+        0: 0,
+        1: $border-radius-sm,
+        2: $border-radius,
+        3: $border-radius-lg,
+      )
+    ),
+    "radius-left-top": (
+      property: border-top-left-radius,
+      class: radius-left-top,
+      values: (null: 4*$border-radius)
+    ),
+    "radius-left": (
+      property: border-top-left-radius border-bottom-left-radius,
+      class: radius-left,
+      values: (null: 4*$border-radius)
+    ),
+    "radius-right": (
+      property: border-top-right-radius border-bottom-right-radius,
+      class: radius-right,
+      values: (null: 4*$border-radius)
+    ),
+  )
+);

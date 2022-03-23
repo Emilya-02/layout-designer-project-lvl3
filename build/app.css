@@ -8033,6 +8033,52 @@ textarea.form-control-lg {
   visibility: hidden !important;
 }
 
+.border-md-bottom {
+  border-bottom: 1px solid #EFEFEF !important;
+}
+
+.border-lg-top {
+  border-top: 1px solid #EFEFEF !important;
+}
+
+.border-sm {
+  border: 1px solid #EFEFEF !important;
+}
+
+.radius {
+  border-radius: 1rem !important;
+}
+
+.radius-0 {
+  border-radius: 0 !important;
+}
+
+.radius-1 {
+  border-radius: 0.2rem !important;
+}
+
+.radius-2 {
+  border-radius: 0.25rem !important;
+}
+
+.radius-3 {
+  border-radius: 0.3rem !important;
+}
+
+.radius-left-top {
+  border-top-left-radius: 1rem !important;
+}
+
+.radius-left {
+  border-top-left-radius: 1rem !important;
+  border-bottom-left-radius: 1rem !important;
+}
+
+.radius-right {
+  border-top-right-radius: 1rem !important;
+  border-bottom-right-radius: 1rem !important;
+}
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
@@ -11354,10 +11400,6 @@ textarea.form-control-lg {
   min-height: calc(100vh - 48px);
 }
 
-.radius {
-  border-radius: 1rem;
-}
-
 .scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -11480,6 +11522,11 @@ textarea.form-control-lg {
   margin-left: 16px;
 }
 
+header .contact-item {
+  box-shadow: none;
+  margin-bottom: 0 !important;
+}
+
 .card {
   border: none !important;
   align-items: center;
@@ -11539,6 +11586,11 @@ textarea.form-control-lg {
     min-height: 100vh;
   }
 }
+@media (min-width: 767px) {
+  .sms-icon {
+    display: none !important;
+  }
+}
 #contacts input {
   border-radius: 0;
   border: none;
@@ -11561,5 +11613,63 @@ textarea.form-control-lg {
   box-shadow: none;
   border-bottom: 1px solid #dee2e6;
   background: #fff;
+}
+
+.chat-container {
+  padding: 49px;
+  position: relative;
+}
+
+.message {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: flex-end;
+}
+.message:nth-child(2n+1) {
+  justify-content: flex-start;
+}
+.message:nth-child(2n+2) {
+  justify-content: flex-end;
+}
+.message h6, .message .h6 {
+  margin-bottom: 0.25rem;
+}
+.message p {
+  margin-bottom: 0.5rem;
+}
+.message img {
+  margin-right: 1rem;
+}
+.message hr {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
+
+.message-item {
+  max-width: 558px;
+  padding: 1.5rem;
+}
+.message-item span {
+  font-size: 14px;
+}
+
+.message-light {
+  background: #FBFBFB;
+}
+.message-light p, .message-light span {
+  color: #6C757D;
+}
+.message-light hr {
+  color: #FBFBFB;
+}
+
+.message-primary {
+  background: #4545A5;
+}
+.message-primary h6, .message-primary .h6, .message-primary p, .message-primary span {
+  color: #fff;
+}
+.message-primary hr {
+  color: #EFEFEF;
 }
 /*# sourceMappingURL=app.css.map */
