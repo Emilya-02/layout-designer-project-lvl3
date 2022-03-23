@@ -11401,7 +11401,7 @@ textarea.form-control-lg {
 }
 
 .min-h-row {
-  max-height: calc(100vh - 48px);
+  min-height: calc(100vh - 48px);
 }
 
 .scrollbar {
