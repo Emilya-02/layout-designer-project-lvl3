@@ -11396,8 +11396,8 @@ textarea.form-control-lg {
   max-height: calc(100vh - 48px);
 }
 
-.min-h-row {
-  min-height: calc(100vh - 48px);
+.h-row {
+  height: calc(100vh - 48px);
 }
 
 .scrollbar {
@@ -11594,6 +11594,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.bottom-40 {
+  bottom: 40px;
+}
+
 #contacts input {
   border-radius: 0;
   border: none;
@@ -11657,10 +11661,10 @@ textarea.form-control-lg {
 }
 
 .message-light {
-  background: #FBFBFB;
+  background: #EFEFEF;
 }
 .message-light p, .message-light span {
-  color: #6C757D;
+  color: #343A40;
 }
 .message-light hr {
   color: #FBFBFB;

@@ -13,8 +13,8 @@
 
 <body class="bg-gray max-h p-4">
   <div class="container-xxl overflow-hidden radius bg-white mobile-100vh">
-    <div class="row max-h-row min-h-row">
-      <div class="col-12 col-md-4 px-0 border-end">
+    <div class="row max-h-row h-row">
+      <div class="col-12 col-md-4 px-0 border-end d-flex flex-column h-100">
         <div class="header bg-primary d-flex justify-content-between align-items-center pt-3 pb-3">
           <a class="ms-4 me-auto" href="#"><img class="color-fill" src="images/icons/logo.svg" width="15"
               alt="главная" /></a>
@@ -36,7 +36,7 @@
               <span class="text-light">Профиль</span></a>
           </nav>
         </div>
-        <div class="tab-content scroll-h scrollbar" id="pills-tabContent">
+        <div class="tab-content h-100 scroll-h scrollbar" id="pills-tabContent">
           <div class="tab-pane pt-5 px-4 tab-pane fade show" id="contacts" role="tabpanel" aria-labelledby="contacts">
             <h2 class="mb-4 fw-bold">Контакты</h2>
             <input type="password" id="inputPassword5" class="form-control p-4 mb-5" placeholder="Поиск по контактам">
@@ -165,9 +165,10 @@
               </li>
             </ul>
           </div>
-          <div class="tab-pane pt-5 px-4 tab-pane fade show desktop-none" id="message" role="tabpanel" aria-labelledby="message">
+          <div class="tab-pane pt-5 px-4 tab-pane fade show desktop-none" id="message" role="tabpanel"
+            aria-labelledby="message">
             <header class="border-bottom">
-              <div class="contact-item mb-3">
+              <div class="contact-item">
                 <img class="avatar avatar-sm" src="./images/avatar_4.jpg">
                 <div class="contact-info p-4">
                   <h6 class="fw-bold">Вениамин Редакторович</h6>
@@ -220,16 +221,16 @@
                   <span>только что</span>
                 </div>
               </div>
-              <div class="writing-message fixed-bottom">
+              <div class="writing-message position-relative">
                 Напишите сообщение
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-8 p-0 mobile-none">
+      <div class="col-12 col-md-8 p-0 d-flex flex-column h-100">
         <header class="border-bottom">
-          <div class="contact-item shadow-none mb-3">
+          <div class="contact-item shadow-none">
             <img class="avatar avatar-sm" src="./images/avatar_4.jpg">
             <div class="contact-info p-4">
               <h6 class="fw-bold">Вениамин Редакторович</h6>
@@ -282,9 +283,9 @@
               <span>только что</span>
             </div>
           </div>
-          <div class="writing-message fixed-bottom">
-            Напишите сообщение
-          </div>
+        </div>
+        <div class="writing-message position-relative">
+          Напишите сообщение
         </div>
       </div>
     </div>

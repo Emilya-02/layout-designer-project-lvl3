@@ -37,9 +37,9 @@
 }
 
 .message-light {
-  background: $light;
+  background: $gray;
   & p, span {
-    color: $secondary;
+    color: $dark;
   }
   & hr {
     color: $light;
