@@ -11598,7 +11598,7 @@ textarea.form-control-lg {
   }
 
   .chat-container {
-    padding-top: 54px !important;
+    padding-top: 50px !important;
     max-height: calc(100vh - 240px);
   }
   .chat-container img {
