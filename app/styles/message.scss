@@ -1,3 +1,7 @@
+header .contact-info h6 {
+  margin-bottom: 6px;
+}
+
 .chat-container {
   padding: 49px;
   position: relative;
@@ -37,7 +41,7 @@
 }
 
 .message-light {
-  background: $gray;
+  background: $light;
   & p, span {
     color: $dark;
   }

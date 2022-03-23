@@ -11626,6 +11626,10 @@ textarea.form-control-lg {
   background: #fff;
 }
 
+header .contact-info h6, header .contact-info .h6 {
+  margin-bottom: 6px;
+}
+
 .chat-container {
   padding: 49px;
   position: relative;
@@ -11665,7 +11669,7 @@ textarea.form-control-lg {
 }
 
 .message-light {
-  background: #EFEFEF;
+  background: #FBFBFB;
 }
 .message-light p, .message-light span {
   color: #343A40;
