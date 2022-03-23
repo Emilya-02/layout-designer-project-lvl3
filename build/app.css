@@ -11648,12 +11648,12 @@ textarea.form-control-lg {
 .message p {
   margin-bottom: 0.5rem;
 }
-.message img {
-  margin-right: 1rem;
-}
 .message hr {
   margin-top: 0;
   margin-bottom: 0.25rem;
+}
+.message img {
+  margin-right: 1rem;
 }
 
 .message-item {
