@@ -11600,6 +11600,9 @@ textarea.form-control-lg {
   .chat-container {
     max-height: calc(100vh - 240px);
   }
+  .chat-container .message {
+    margin-bottom: 13px;
+  }
   .chat-container img {
     display: none;
   }

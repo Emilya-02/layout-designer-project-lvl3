@@ -52,6 +52,9 @@
 
   .chat-container {
     max-height: calc(100vh - 240px);
+    & .message {
+      margin-bottom: 13px;
+    }
     & img {
       display: none;
     }
