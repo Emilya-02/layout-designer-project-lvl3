@@ -11592,6 +11592,17 @@ textarea.form-control-lg {
   .mobile-none {
     display: none !important;
   }
+
+  .mobile-p-0 {
+    padding: 0 !important;
+  }
+
+  .chat-container {
+    max-height: calc(100vh - 235px);
+  }
+  .chat-container img {
+    display: none;
+  }
 }
 @media (min-width: 767px) {
   .sms-icon {
@@ -11652,7 +11663,7 @@ header .contact-item img {
 }
 
 .message {
-  margin-bottom: 12px;
+  margin-bottom: calc(1rem - 4px);
   display: flex;
   align-items: flex-end;
 }

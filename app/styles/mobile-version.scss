@@ -45,6 +45,17 @@
   .mobile-none {
     display: none !important;
   }
+
+  .mobile-p-0 {
+    padding: 0 !important;
+  }
+
+  .chat-container {
+    max-height: calc(100vh - 235px);
+    & img {
+      display: none;
+    }
+  }
 }
 
 @media (min-width: 767px) {
