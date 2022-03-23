@@ -41,10 +41,17 @@
   .mobile-100vh {
     min-height: 100vh;
   }
+
+  .mobile-none {
+    display: none !important;
+  }
 }
 
 @media (min-width: 767px) {
   .sms-icon {
+    display: none !important;
+  }
+  .desktop-none {
     display: none !important;
   }
 }
