@@ -21,7 +21,8 @@ header .contact-item {
 }
 
 .message {
-  margin-bottom: 1rem;
+  // margin-bottom: 1rem;
+  margin-bottom: 12px;
   display: flex;
   align-items: flex-end;
   &:nth-child(2n+1) {
@@ -50,7 +51,7 @@ header .contact-item {
 .message-item {
   max-width: 558px;
   padding: 1.5rem;
-  padding-bottom: 20px;
+  // padding-bottom: 20px;
   & span {
     font-size: 14px;
   }
