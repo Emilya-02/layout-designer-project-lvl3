@@ -11559,8 +11559,8 @@ textarea.form-control-lg {
     padding: 0 !important;
   }
 
-  .radius {
-    border-radius: 0;
+  .container-xxl {
+    border-radius: 0 !important;
   }
 
   .row .border-end {
@@ -11598,10 +11598,16 @@ textarea.form-control-lg {
   }
 
   .chat-container {
-    max-height: calc(100vh - 238px);
+    max-height: calc(100vh - 240px);
   }
   .chat-container img {
     display: none;
+  }
+  .chat-container .message-light p, .chat-container .message-light span {
+    color: #6C757D;
+  }
+  .chat-container .message-primary span {
+    color: #FBFBFB;
   }
 
   .writing-message img {

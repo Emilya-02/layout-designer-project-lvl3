@@ -13,8 +13,8 @@
     padding: 0 !important;
   }
 
-  .radius {
-    border-radius: 0;
+  .container-xxl {
+    border-radius: 0 !important;
   }
 
   .row .border-end {
@@ -51,9 +51,19 @@
   }
 
   .chat-container {
-    max-height: calc(100vh - 238px);
+    max-height: calc(100vh - 240px);
     & img {
       display: none;
+    }
+    & .message-light {
+      & p, span {
+        color: $secondary;
+      }
+    }
+    & .message-primary {
+      & span {
+        color: $light;
+      }
     }
   }
 
