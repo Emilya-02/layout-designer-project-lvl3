@@ -11534,6 +11534,10 @@ textarea.form-control-lg {
   #profile input {
     margin-bottom: 82px !important;
   }
+
+  .mobile-100vh {
+    min-height: 100vh;
+  }
 }
 #contacts input {
   border-radius: 0;

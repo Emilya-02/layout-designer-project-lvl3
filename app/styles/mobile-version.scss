@@ -16,7 +16,7 @@
   .radius {
     border-radius: 0;
   }
-  
+
   .row .border-end {
     border-right: none !important;
   }
@@ -36,6 +36,10 @@
 
   #profile input {
     margin-bottom: 82px !important;
+  }
+
+  .mobile-100vh {
+    min-height: 100vh;
   }
 }
 
