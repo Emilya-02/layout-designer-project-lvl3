@@ -6,6 +6,7 @@
     & span {
       display: none;
     }
+    z-index: 1;
   }
 
   .bg-gray {
@@ -15,7 +16,7 @@
   .radius {
     border-radius: 0;
   }
-
+  
   .row .border-end {
     border-right: none !important;
   }
