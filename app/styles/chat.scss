@@ -20,6 +20,8 @@
     overflow: hidden;
     width: calc(100% - $spacer*3);
     & h6 {
+      font-size: 16px;
+      line-height: 24ox;
       display: flex;
       justify-content: end;
       color: #000;
@@ -31,6 +33,8 @@
       text-overflow: ellipsis;
       max-width: calc(100% - $spacer*4);
       font-size: 80%;
+      font-size: 14px;
+      line-height: 21px;
       margin-bottom: 0;
     }
   }

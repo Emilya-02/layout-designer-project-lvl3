@@ -11503,6 +11503,8 @@ textarea.form-control-lg {
   width: calc(100% - 3rem);
 }
 .chat-info h6, .chat-info .h6 {
+  font-size: 16px;
+  line-height: 24ox;
   display: flex;
   justify-content: end;
   color: #000;
@@ -11514,6 +11516,8 @@ textarea.form-control-lg {
   text-overflow: ellipsis;
   max-width: calc(100% - 4rem);
   font-size: 80%;
+  font-size: 14px;
+  line-height: 21px;
   margin-bottom: 0;
 }
 .chat span {
@@ -11659,6 +11663,7 @@ header .contact-item img {
   justify-content: flex-end;
 }
 .message h6, .message .h6 {
+  line-height: 24px;
   margin-bottom: 0.25rem;
 }
 .message p {
