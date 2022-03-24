@@ -11605,13 +11605,13 @@ textarea.form-control-lg {
     padding-left: 46px !important;
     padding-right: 46px !important;
     padding-top: 48px !important;
-    max-height: calc(100vh - 239px);
+    max-height: calc(100vh - 240px);
   }
   .chat-container .message {
     margin-bottom: 17px !important;
   }
   .chat-container .message-item {
-    padding-left: 25px !important;
+    padding-left: 26px !important;
     padding-right: 20px !important;
     padding-bottom: 20px !important;
   }
