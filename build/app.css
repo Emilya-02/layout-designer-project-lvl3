@@ -11602,8 +11602,8 @@ textarea.form-control-lg {
   }
 
   .chat-container {
-    padding-left: 47px !important;
-    padding-right: 47px !important;
+    padding-left: 46px !important;
+    padding-right: 46px !important;
     padding-top: 48px !important;
     max-height: calc(100vh - 238px);
   }
@@ -11611,9 +11611,9 @@ textarea.form-control-lg {
     margin-bottom: 17px !important;
   }
   .chat-container .message-item {
-    padding-left: 22px !important;
+    padding-left: 24px !important;
     padding-right: 22px !important;
-    padding-bottom: 19px !important;
+    padding-bottom: 20px !important;
   }
   .chat-container img {
     display: none;
