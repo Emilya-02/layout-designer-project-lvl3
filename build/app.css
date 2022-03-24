@@ -11606,10 +11606,10 @@ textarea.form-control-lg {
     max-height: calc(100vh - 238px);
   }
   .chat-container .message {
-    margin-bottom: 20px !important;
+    margin-bottom: 21px !important;
   }
   .chat-container .message-item {
-    padding-bottom: 18px !important;
+    padding-bottom: 16px !important;
   }
   .chat-container img {
     display: none;
