@@ -57,7 +57,10 @@
   .chat-container {
     max-height: calc(100vh - 238px);
     & .message {
-      margin-bottom: 13px;
+      margin-bottom: 16px !important;
+    }
+    & .message-item {
+      padding-bottom: 21px !important;
     }
     & img {
       display: none;
