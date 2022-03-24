@@ -50,6 +50,10 @@
     padding: 0 !important;
   }
 
+  .border-bottom-gray {
+    border-bottom: none;
+  }
+
   .chat-container {
     max-height: calc(100vh - 238px);
     & .message {
