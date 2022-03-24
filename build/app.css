@@ -11603,6 +11603,9 @@ textarea.form-control-lg {
   .chat-container .message {
     margin-bottom: 13px;
   }
+  .chat-container .message-item {
+    padding-bottom: 22px !important;
+  }
   .chat-container img {
     display: none;
   }
@@ -11635,7 +11638,7 @@ textarea.form-control-lg {
   }
 
   nav a:last-child img {
-    margin-right: 36px !important;
+    margin-right: 32px !important;
   }
 }
 @media (min-width: 767px) {

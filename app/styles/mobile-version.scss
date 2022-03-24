@@ -55,6 +55,9 @@
     & .message {
       margin-bottom: 13px;
     }
+    & .message-item {
+      padding-bottom: 22px !important;
+    }
     & img {
       display: none;
     }
@@ -94,7 +97,7 @@
   }
 
   nav a:last-child img {
-    margin-right: 36px !important;
+    margin-right: 32px !important;
   }
 }
 
