@@ -51,16 +51,16 @@
   }
 
   .border-bottom-gray {
-    border-bottom: none;
+    border-bottom: 1px solid $gray;
   }
 
   .chat-container {
     max-height: calc(100vh - 238px);
     & .message {
-      margin-bottom: 19px !important;
+      margin-bottom: 23px !important;
     }
     & .message-item {
-      padding-bottom: 18px !important;
+      padding-bottom: 22px !important;
     }
     & img {
       display: none;
@@ -96,8 +96,10 @@
     }
   }
 
-  header .contact-info {
+  header {
+   &.contact-info {
     padding-bottom: 22px !important;
+   }
   }
 
   nav a:last-child img {

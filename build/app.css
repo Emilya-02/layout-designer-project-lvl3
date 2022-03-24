@@ -11598,17 +11598,17 @@ textarea.form-control-lg {
   }
 
   .border-bottom-gray {
-    border-bottom: none;
+    border-bottom: 1px solid #EFEFEF;
   }
 
   .chat-container {
     max-height: calc(100vh - 238px);
   }
   .chat-container .message {
-    margin-bottom: 19px !important;
+    margin-bottom: 23px !important;
   }
   .chat-container .message-item {
-    padding-bottom: 18px !important;
+    padding-bottom: 22px !important;
   }
   .chat-container img {
     display: none;
@@ -11637,7 +11637,7 @@ textarea.form-control-lg {
     margin-left: 32px !important;
   }
 
-  header .contact-info {
+  header.contact-info {
     padding-bottom: 22px !important;
   }
 
