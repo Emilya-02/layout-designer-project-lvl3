@@ -11603,9 +11603,6 @@ textarea.form-control-lg {
   .chat-container .message {
     margin-bottom: 13px;
   }
-  .chat-container .message-item {
-    padding-bottom: 22px !important;
-  }
   .chat-container img {
     display: none;
   }
