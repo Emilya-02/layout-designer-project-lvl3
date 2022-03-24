@@ -11633,6 +11633,10 @@ textarea.form-control-lg {
   header .contact-info {
     padding-bottom: 22px !important;
   }
+
+  nav a:last-child img {
+    margin-right: 36px !important;
+  }
 }
 @media (min-width: 767px) {
   .sms-icon {
