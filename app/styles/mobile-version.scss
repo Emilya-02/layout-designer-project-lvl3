@@ -55,6 +55,7 @@
   }
 
   .chat-container {
+    padding-top: 48px !important;
     max-height: calc(100vh - 238px);
     & .message {
       margin-bottom: 20px !important;
