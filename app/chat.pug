@@ -1,0 +1,25 @@
+doctype html
+html(lang="ru")
+  head 
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    meta(http-equiv="X-UA-Compatible" content="ie=edge")
+
+    title HexletChat Эмилия
+
+    link(rel='stylesheet' href='./app.css')
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap")
+  
+  body.bg-gray.max-h.p-4
+    .container-xxl.overflow-hidden.radius.bg-white.mobile-100vh
+      .row.max-h-row.h-row.min-h-row
+        .col-12.col-md-4.px-0.border-end.d-flex.flex-column.h-100  
+          include header-chat.pug
+          div#pills-tabcontent.tab-content.scroll-h.scrollbar
+            include contacts.pug
+            include chats.pug 
+            include profile.pug 
+            include message-mobile.pug
+        .col-12.col-md-8.p-0.d-flex.flex-column.h-100
+          include message-desktop.pug 
+    script(src="./bootstrap.min.js")

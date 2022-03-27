@@ -1,5 +1,7 @@
 const gulp = require('gulp');
+const { src, dest, series } = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
+const pug = require('gulp-pug');
 const sourcemaps = require('gulp-sourcemaps');
 const watch = require('gulp-watch');
 
@@ -11,21 +13,41 @@ gulp.task('sass-compile', function() {
   .pipe(gulp.dest('build/'))
 })
 
-gulp.task('copy', function() {
-  return gulp.src('app/*.html')
-  .pipe(gulp.dest('build/'))
-})
+const buildPug = () => {
+  console.log('Компиляция Pug');
 
-gulp.task('js', function() {
-  return gulp.src('node_modules/bootstrap/dist/js/bootstrap.min.js')
-  .pipe(gulp.dest('build/'))
-})
+  return gulp.src('app/*.pug')
+    .pipe(pug())
+    .pipe(gulp.dest('build/'))
+}
 
-gulp.task('jsmap', function() {
-  return gulp.src('node_modules/bootstrap/dist/js/bootstrap.min.js.map')
-  .pipe(gulp.dest('build/'))
-})
+exports.buildPug = series(buildPug);
 
-gulp.task('watch', function() {
-  gulp.watch('./app/scss/**/*.scss', gulp.series('sass-compile', 'copy', 'js', 'jsmap'))
-})
+// exports.views = () => {
+//   return src('./src/*.pug')
+//     .pipe(
+//       pug({
+//         // Your options in here.
+//       })
+//     )
+//     .pipe(dest('./dist'));
+// };
+
+// gulp.task('copy', function() {
+//   return gulp.src('app/*.html')
+//   .pipe(gulp.dest('build/'))
+// })
+
+// gulp.task('js', function() {
+//   return gulp.src('node_modules/bootstrap/dist/js/bootstrap.min.js')
+//   .pipe(gulp.dest('build/'))
+// })
+
+// gulp.task('jsmap', function() {
+//   return gulp.src('node_modules/bootstrap/dist/js/bootstrap.min.js.map')
+//   .pipe(gulp.dest('build/'))
+// })
+
+// gulp.task('watch', function() {
+//   gulp.watch('./app/scss/**/*.scss', gulp.series('sass-compile'))
+// })
