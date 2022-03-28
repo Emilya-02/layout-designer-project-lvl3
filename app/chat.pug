@@ -20,7 +20,8 @@ html(lang="ru")
               include contacts.pug
             div#chats.tab-pane.p-4.tab-pane.fade.show.active(role="tabpanel" aria-labelledby="chats")
               include chats.pug 
-            include profile.pug 
+            div#profile.tab-pane.p-4.tab-pane.fade.show(role="tabpanel" aria-labelledby="profile")
+              include profile.pug 
             include message-mobile.pug
         .col-12.col-md-8.p-0.d-flex.flex-column.h-100
           include message-desktop.pug 
