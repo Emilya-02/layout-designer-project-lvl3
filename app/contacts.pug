@@ -37,16 +37,16 @@
   }
 
 
-div#contacts.tab-pane.pt-5.px-4.tab-pane.fade.show.active(role="tabpanel" aria-labelledby="contacts")
-  h2.mb-4.fw-bold Контакты
-  input#input-5.form-control.p-4.mb-5(type="text" placeholder="Поиск по контактам")
-  each people, alphabet in contacts
-    p.text-muted.mt-5= alphabet
-      each user in people
-        .contact
-          a.contact-item.mb-3(href="#")
-            img.avatar.avatar-sm(src= user.avatar, alt="avatar") 
-            .contact-info.p-4 
-              h6.fw-bold= user.name 
-              p.text-muted= user.status
+
+h2.mb-4.fw-bold Контакты
+input#input-5.form-control.p-4.mb-5(type="text" placeholder="Поиск по контактам")
+each people, alphabet in contacts
+  p.text-muted.mt-5= alphabet
+    each user in people
+      .contact
+        a.contact-item.mb-3(href="#")
+          img.avatar.avatar-sm(src= user.avatar, alt="avatar") 
+          .contact-info.p-4 
+            h6.fw-bold= user.name 
+            p.text-muted= user.status
 

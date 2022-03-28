@@ -16,8 +16,10 @@ html(lang="ru")
         .col-12.col-md-4.px-0.border-end.d-flex.flex-column.h-100
             include header-index.pug
             div#pills-tabcontent.tab-content.scroll-h.scrollbar
-              include contacts.pug
-              include chats.pug 
+              div#contacts.tab-pane.pt-5.px-4.tab-pane.fade.show.active(role="tabpanel" aria-labelledby="contacts")
+                include contacts.pug
+              div#chats.tab-pane.p-4.tab-pane.fade.show(role="tabpanel" aria-labelledby="chats")
+                include chats.pug 
               include profile.pug 
         .col-12.col-md-8 
           .right-img 
